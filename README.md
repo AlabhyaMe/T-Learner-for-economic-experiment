@@ -2,6 +2,7 @@
 This repository contains the implementation of RCT-based causal inference and Meta Learners (T-Learners) to optimize policy interventions by targeting individuals who are most likely to benefit.
 
 Project Overview
+  
   The project explores different methods for estimating treatment effects and scaling up an intervention program efficiently. It includes:
 
   Randomized Controlled Trials (RCT): The baseline experiment to estimate the impact of treatment.
@@ -13,7 +14,9 @@ Project Overview
   T-Learners allow for better targeting in policy interventions by identifying individuals who would benefit the most, making policy implementation more effective and equitable compared to random assignment.
 
 Files and Structure
+
 1. Meta_Learners.ipynb
+
   This is the main notebook containing the code and workflow for:
 
   Analyzing the RCT dataset
