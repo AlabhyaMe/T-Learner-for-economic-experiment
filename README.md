@@ -37,6 +37,7 @@ Files and Structure
   This notebook processes the output from Meta_Learners and simulates the impact of treatment. It helps estimate the overall effect on expenditure when selecting individuals based on random assignment vs. T-Learner targeting.
 
 Key Insights
+  
   Random assignment is fair but may not maximize impact.
 
   T-Learners allow targeted interventions, improving efficiency by selecting those most likely to benefit.
@@ -44,6 +45,7 @@ Key Insights
   Scaling up policies with data-driven targeting can optimize resource allocation while ensuring equity.
 
 How to Use
+  
   Run Meta_Learners.ipynb to process the RCT dataset and build models.
 
   Use data_processor.ipynb to simulate the impact of treatment on a larger population.
@@ -51,6 +53,7 @@ How to Use
   Compare different approaches (random vs. targeted assignment) to understand their effects.
 
 Applications
+  
   This approach can be applied to various policy interventions, such as:
 
   Healthcare subsidies (targeting individuals who benefit most)
