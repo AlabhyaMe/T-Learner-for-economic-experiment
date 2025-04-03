@@ -14,7 +14,8 @@ Project Overview
 
 Files and Structure
 1. Meta_Learners.ipynb
-    This is the main notebook containing the code and workflow for:
+
+   This is the main notebook containing the code and workflow for:
 
     Analyzing the RCT dataset
     
@@ -24,16 +25,20 @@ Files and Structure
     
     Scaling up the program using a dataset of 1 million people
 
-2. dataset.csv
-    This is the primary dataset, which contains information from the RCT experiment. It is used for training models, evaluating treatment effects, and building the T-Learner model.
+3. dataset.csv
 
-3. new_target.csv
-    A scaled-up dataset representing a 1 million-person population, used to simulate a large-scale intervention. The T-Learner model is applied here to target 200,000 individuals most likely to benefit from treatment.
+   This is the primary dataset, which contains information from the RCT experiment. It is used for training models, evaluating treatment effects, and building the T-Learner model.
 
-4. data_processor.ipynb
-    This notebook processes the output from Meta_Learners and simulates the impact of treatment. It helps estimate the overall effect on expenditure when selecting individuals based on random assignment vs. T-Learner targeting.
+4. new_target.csv
+
+   A scaled-up dataset representing a 1 million-person population, used to simulate a large-scale intervention. The T-Learner model is applied here to target 200,000 individuals most likely to benefit from treatment.
+
+5. data_processor.ipynb
+
+   This notebook processes the output from Meta_Learners and simulates the impact of treatment. It helps estimate the overall effect on expenditure when selecting individuals based on random assignment vs. T-Learner targeting.
 
 Key Insights
+    
     Random assignment is fair but may not maximize impact.
 
     T-Learners allow targeted interventions, improving efficiency by selecting those most likely to benefit.
@@ -41,6 +46,7 @@ Key Insights
     Scaling up policies with data-driven targeting can optimize resource allocation while ensuring equity.
 
 How to Use
+    
     Run Meta_Learners.ipynb to process the RCT dataset and build models.
 
     Use data_processor.ipynb to simulate the impact of treatment on a larger population.
@@ -48,6 +54,7 @@ How to Use
 Compare different approaches (random vs. targeted assignment) to understand their effects.
 
 Applications
+    
     This approach can be applied to various policy interventions, such as:
     
     Healthcare subsidies (targeting individuals who benefit most)
